@@ -7,36 +7,46 @@ document.addEventListener("DOMContentLoaded", () => {
   const questions = document.querySelectorAll(".question");
 
   const correctAnswers = {
-    q1: "b",  // Hypothalamus
-    q2: "c",  // Epinephrine
-    q3: "b",  // Dendrites
-    q4: "c",  // To regulate body processes through hormones
-    q5: "c",  // Increases heart rate and prepares the body for “fight or flight”
-    q6: "b",  // Pancreas
-    q7: "a",  // Cerebellum
-    q8: "b",  // It secretes hormones that control other glands, such as the pituitary gland
-    q9: "b",  // It regulates the involuntary functions of the body, such as heart rate and digestion
-    q10: "b", // Cortisol
-    q11: "b", // To speed up the transmission of nerve impulses
-    q12: "b", // Medulla Oblongata
-    q13: "a", // Kidneys
-    q14: "b", // To control other endocrine glands by releasing hormones
-    q15: "b", // Axon
-    q16: "b", // Estrogen
-    q17: "b", // Bacteria and viruses
-    q18: "c", // Promotes relaxation and digestion
-    q19: "a", // To regulate metabolism through the release of thyroxine
-    q20: "a", // Somatic Nervous System
-    q21: "b", // Blood-brain barrier
-    q22: "c", // Altruism behavior
-    q23: "a", // Adrenal glands
-    q24: "b", // Pituitary gland
-    q25: "c", // Direct stimulation of neurons
-    q26: "a", // The synaptic cleft
-    q27: "c", // Thalamus
-    q28: "b", // Left hemisphere
-    q29: "c", // Act as the body’s major thermoregulatory organ
-    q30: "a", // Helps to coordinate motor movement
+    q1: "c",
+    q2: "a",
+    q3: "b",
+    q4: "c",
+    q5: "b",
+    q6: "b",
+    q7: "b",
+    q8: "c",
+    q9: "a",
+    q10: "a",
+    q11: "c",
+    q12: "b",
+    q13: "a",
+    q14: "b",
+    q15: "b",
+    q16: "c",
+    q17: "a",
+    q18: "b",
+    q19: "c",
+    q20: "a",
+    q21: "b",
+    q22: "c",
+    q23: "a",
+    q24: "b",
+    q25: "c",
+    q26: "a",
+    q27: "b",
+    q28: "a",
+    q29: "b",
+    q30: "b",
+    q31: "c",
+    q32: "b",
+    q33: "c",
+    q34: "b",
+    q35: "a",
+    q36: "b",
+    q37: "a",
+    q38: "b",
+    q39: "b",
+    q40: "a"
   };
 
   submitButton.addEventListener("click", () => {
